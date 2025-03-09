@@ -7,7 +7,7 @@ import style from "./css/style.css";
 function App() {
   return <Router>
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/Movie-app" element={<Home />} />
     </Routes>
     <Routes>
       <Route path="/detail/:id" element={<Detail />} />

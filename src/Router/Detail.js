@@ -15,7 +15,7 @@ function Detail() {
     const json = await res.json();
     const character = json.data.results[0];
 
-		console.log(character)
+	console.log(character)
 
     setInfo(character);
     setThumbUrl(`${character.thumbnail.path}.${character.thumbnail.extension}`);
