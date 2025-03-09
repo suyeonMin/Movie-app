@@ -36,7 +36,7 @@ function Detail() {
 						<dl>
 							<dt>
 								<img src={thumbUrl} alt="캐릭터 이미지" />
-								<Link to={`/`} className="btn">Go to List</Link>
+								<Link to={`/Movie-app`} className="btn">Go to List</Link>
 							</dt>
 							<dd>
 								<h2>{info.name}</h2>
